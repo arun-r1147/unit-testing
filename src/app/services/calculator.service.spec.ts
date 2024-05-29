@@ -24,4 +24,8 @@ describe('CalculatorService', () => {
     const result = service.subtract(5,3);
     expect(result).toBe(2)
   })
+  it('should multiply 2 numbers',()=>{
+    const result = service.multiply(5,3);
+    expect(result).toBe(15)
+  })
 });

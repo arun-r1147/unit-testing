@@ -19,4 +19,9 @@ export class CalculatorService {
     this.logger.log("Subtraction operation called");
     return n1 - n2;
   }
+  
+  multiply(n1: number, n2:number) {
+    this.logger.log("Multiplication operation called");
+    return n1 * n2;
+  }
 }
